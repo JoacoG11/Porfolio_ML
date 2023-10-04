@@ -1,0 +1,61 @@
+header {
+    background-color: #9b59b6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+header {
+    background-color: #9b59b6;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    color: #fff;
+    text-align: center; /* Alinea el contenido al centro horizontal */
+    display: flex; /* Usa flexbox para centrar verticalmente */
+    justify-content: center; /* Centra horizontalmente */
+    align-items: center; /* Centra verticalmente */
+}
+
+body {
+    background-image: url('bg.jpg'); /* Reemplaza 'nombre-de-tu-imagen.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija el fondo para que no se desplace con el contenido */
+    background-position: center; /* Centra la imagen en el fondo */
+}
+
+main img {
+    margin: 20px auto; /* Agrega margen vertical de 20px y margen horizontal automático para centrar */
+    display: block; /* Hace que las imágenes ocupen un espacio completo en su línea */
+}
+
+.rounded-button {
+    background-color: #9b59b6; /* Comparte el color con el header */
+    color: #fff;
+    text-align: center;
+    padding: 10px 20px; /* Ajusta el espacio interno */
+    border-radius: 20px; /* Hace que el botón sea redondeado */
+    text-decoration: none; /* Elimina el subrayado por defecto en los enlaces */
+    display: inline-block; /* Hace que el botón se muestre como un bloque en línea */
+    transition: background-color 0.3s; /* Agrega una transición de color al pasar el mouse */
+}
+
+.rounded-button:hover {
+    background-color: #8e44ad; /* Cambia el color al pasar el mouse */
+}
+
+body {
+    background-image: url('bg.jpg'); /* Reemplaza 'nombre-de-tu-imagen.jpg' con la ruta de tu imagen de fondo */
+    background-size: cover; /* Ajusta el tamaño de la imagen para cubrir todo el fondo */
+    background-repeat: no-repeat; /* Evita que la imagen se repita */
+    background-attachment: fixed; /* Fija el fondo para que no se desplace con el contenido */
+    background-position: center; /* Centra la imagen en el fondo */
+}
+

@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ejemploPY.css">
+    <title>Construcción de modelo de predicción para Titanic</title>
+</head>
+<body>
+    <header>
+        <h1>Construcción de modelo de predicción para data set "Titanic" utilizando Python y Sklearn</h1>
+    </header>
+    <main>
+        <section>
+            <h2>Pasos más relevantes del proceso:</h2>
+            
+                
+                    <h3>Importar bibliotecas y definir configuraciones iniciales:</h3>
+                    <p>
+                        a. Importar NumPy, Pandas, Seaborn y Matplotlib<br>
+                        b. Configurar el estilo de las gráficas Seaborn y filtrar las advertencias para que no se muestren durante la ejecución.<br>
+                        c. Listar el contenido del directorio origen.<br>
+                        <img src="assests\imagen1.png" alt="Directorio Origen">
+                    </p>
+                
+                    <h3>Cargar Datos:</h3>
+                    <p>
+                        a. Leer los archivos CSV train y test y mostrarlos en pantalla.<br>
+                        <img src="assests\imagen2.png" alt="Archivos CSV">
+                    </p>
+                
+                    <h3>Observación y depuración de datos:</h3>
+                    <p>
+                        a. Mostrar las columnas disponibles en test y train.<br>
+                        b. Identificar las características numéricas en el conjunto de entrenamiento y mostrar sus tipos de datos.<br>
+                        c. Generar un resumen estadístico de las características numéricas en el conjunto de entrenamiento.<br>
+                        d. Crear una función para mostrar la cantidad de valores nulos en los conjuntos de testeo y entrenamiento.<br>
+                        e. Eliminar las columnas innecesarias.<br>
+                        f. Llenar los valores nulos con valores apropiados.<br>
+                        <img src="assests\imagen3.png" alt="Depuración de Datos">
+                        <img src="assests\imagen4.png" alt="Valores Nulos">
+                    </p>
+               
+                    <h3>Análisis de datos:</h3>
+                    <p>
+                        a. Generar un gráfico que muestra la distribución de la supervivencia en función del género de los pasajeros.<br>
+                        b. Calcular la cantidad total de personas que sobrevivieron divididas según su género.<br>
+                        c. Generar un gráfico que muestra la distribución de supervivencia en función de la clase.<br>
+                        d. Calcular la cantidad de personas que sobrevivieron en base a su clase.<br>
+                        e. Replicar lo mismo en función de la edad.<br>
+                        f. Generar una gráfica de relación entre características.<br>
+                        <img src="assests\imagen5.png" alt="Distribución de la Supervivencia">
+                        <img src="assests\imagen6.png" alt="Relación entre Características">
+                    </p>
+               
+                    <h3>Manejo de Características:</h3>
+                    <p>
+                        a. Codificar la variable categórica "Sex" en valores numéricos.<br>
+                        b. Crear nuevas características, como "FamSize" (tamaño de la familia) y "IsAlone" (si viaja solo).<br>
+                        c. Extraer los títulos de los nombres de las personas en los conjuntos de entrenamiento y prueba.<br>
+                        <img src="assests\imagen7.png" alt="Codificación de Sex">
+                    </p>
+                
+                    <h3>Preparación para el modelado:</h3>
+                    <p>
+                        a. Estandarizar las características numéricas para que tengan una media de 0 y una desviación estándar de 1.<br>
+                        <img src="assests\imagen8.png" alt="Estandarización de Características Numéricas">
+                    </p>
+                
+                    <h3>Entrenamiento de modelos y evaluación:</h3>
+                    <p>
+                        a. Dividir los datos en conjuntos de entrenamiento y validación.<br>
+                        b. Entrenar varios modelos de aprendizaje automático con diferentes algoritmos y buscar el mejor modelo utilizando GridSearchCV para ajustar los hiperparámetros.<br>
+                        <img src="assests\imagen9.png" alt="Entrenamiento de Modelos">
+                    </p>
+                
+                    <h3>Generación de predicciones y resultados:</h3>
+                    <p>
+                        a. Entrenar el modelo seleccionado en el conjunto de entrenamiento completo (en este caso, SVM).<br>
+                        b. Realizar predicciones en el conjunto de prueba.<br>
+                        c. Crear un DataFrame con las predicciones y guardarlo en un archivo CSV llamado "titanic_submission.csv".<br>
+                        <img src="assests\imagen10.png" alt="Generación de Predicciones">
+                    </p>
+                
+        </section>
+        </section>
+    </main>
+
+</body>
+</html>

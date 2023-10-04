@@ -1,0 +1,14 @@
+/* Estilos para la sección "¿Qué es el Machine Learning?" */
+header {
+    background-color: #3498db;
+    color: #fff; /* Cambia el color del texto a blanco */
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    color: #fff; /* Cambia el color del texto a blanco */
+}

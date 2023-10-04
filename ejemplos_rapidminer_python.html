@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="ejemplos_rapidminer_python.css">
+    <title>Ejemplos con RapidMiner y Python</title>
+</head>
+<body>
+    <header>
+        <h1>Ejemplos con RapidMiner y Python</h1>
+    </header>
+    <main>
+        <!-- Tarjeta para Ejemplos Python -->
+        <a href="ejemploPY.html" class="card" id="ejemplos-python-card">
+            <h2>Ejemplos Python</h2>
+            <p>Explora ejemplos de uso de Python</p>
+        </a>
+
+        <!-- Tarjeta para Ejemplos RapidMiner -->
+        <a href="ejemploRM.html" class="card" id="ejemplos-rapidminer-card">
+            <h2>Ejemplos RapidMiner</h2>
+            <p>Descubre ejemplos de uso de RapidMiner</p>
+        </a>
+    </main>
+
+    <!-- JavaScript para redireccionar al hacer clic en las tarjetas -->
+    <script>
+        // Selecciona la tarjeta "Ejemplos Python" por su id
+        const ejemplosPythonCard = document.getElementById("ejemplos-python-card");
+
+        // Agrega un evento de clic a la tarjeta "Ejemplos Python"
+        ejemplosPythonCard.addEventListener("click", function () {
+            // Redirige a la página "ejemplos_python.html" al hacer clic
+            window.location.href = "ejemploPY.html";
+        });
+
+        // Selecciona la tarjeta "Ejemplos RapidMiner" por su id
+        const ejemplosRapidMinerCard = document.getElementById("ejemplos-rapidminer-card");
+
+        // Agrega un evento de clic a la tarjeta "Ejemplos RapidMiner"
+        ejemplosRapidMinerCard.addEventListener("click", function () {
+            // Redirige a la página "ejemplos_rapidminer.html" al hacer clic
+            window.location.href = "ejemploRM.html";
+        });
+    </script>
+</body>
+</html>

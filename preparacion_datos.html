@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <link rel="stylesheet" href="preparacion_datos.css">
+    <title>Preparación de Datos</title>
+</head>
+<body>
+    <header>
+        <h1>Preparación de Datos</h1>
+    </header>
+    <main>
+
+        <p>La preparación de datos es una parte crítica en el proceso de Machine Learning, ya que la calidad de los datos afecta directamente el rendimiento de los modelos. Aquí exploramos los pasos esenciales en la preparación de datos:</p>
+        
+        <h2>Recopilación de Datos:</h2>
+        <p>Asegurarse de recopilar datos de alta calidad y que sean representativos del problema que se desea resolver. Esto puede implicar la obtención de datos de múltiples fuentes, como bases de datos, sensores, encuestas o registros históricos.</p>
+        <p>Evaluar la calidad de los datos desde el principio para identificar posibles problemas, como datos faltantes o inconsistentes.</p>
+
+        <h2>Exploración de Datos:</h2>
+        <p>Realizar una exploración exhaustiva de los datos para comprender su estructura y distribución.</p>
+        <p>Utilizar herramientas visuales como gráficos de barras, histogramas y diagramas de dispersión para identificar patrones y relaciones entre variables.</p>
+        <p>Calcular estadísticas descriptivas, como la media, la mediana y la desviación estándar, para obtener una visión general de los datos.</p>
+
+        <h2>Limpieza de Datos:</h2>
+        <p>Tratar los valores faltantes de manera adecuada mediante técnicas como la imputación (sustitución de valores faltantes por estimaciones razonables) o la eliminación de registros incompletos.</p>
+        <p>Identificar y tratar valores atípicos (outliers) que puedan afectar negativamente el rendimiento del modelo.</p>
+        <p>Resolver problemas de calidad de datos, como registros duplicados o inconsistentes.</p>
+
+        <h2>Transformación de Datos:</h2>
+        <p>Convertir variables categóricas en formato numérico utilizando técnicas como one-hot encoding (para variables categóricas nominales) o codificación ordinal (para variables categóricas ordinales).</p>
+        <p>Escalar características numéricas para que tengan un rango común, evitando que algunas variables dominen sobre otras en algoritmos sensibles a la escala, como la regresión lineal o las SVM.</p>
+        <p>Aplicar técnicas de ingeniería de características para crear nuevas variables que capturen relaciones importantes en los datos, como la creación de características de interacción o la extracción de características a partir de texto o imágenes.</p>
+
+        <h2>Selección de Características:</h2>
+        <p>Identificar las características más relevantes para el problema mediante técnicas como pruebas estadísticas, análisis de importancia de características o algoritmos de selección automática.</p>
+        <p>Eliminar características irrelevantes o redundantes que puedan aumentar la complejidad del modelo sin mejorar su rendimiento.</p>
+
+        <h2>División de Datos:</h2>
+        <p>Dividir los datos en conjuntos de entrenamiento, validación y prueba de manera estratificada para garantizar que cada conjunto mantenga la proporción de clases original (especialmente importante en problemas de clasificación).</p>
+        <p>La división permite entrenar el modelo en un conjunto, ajustar hiperparámetros en el conjunto de validación y evaluar el rendimiento en el conjunto de prueba sin filtración de información.</p>
+
+        <h2>Manejo de Desbalanceo de Clases:</h2>
+        <p>En problemas de clasificación con clases desbalanceadas, se pueden utilizar técnicas como el muestreo estratificado para crear conjuntos de datos balanceados o la generación de datos sintéticos utilizando métodos como SMOTE (Synthetic Minority Over-sampling Technique).</p>
+
+        <h2>Normalización y Estandarización:</h2>
+        <p>Normalizar características numéricas para que tengan una distribución con media cero y desviación estándar uno, lo que facilita el entrenamiento en algoritmos sensibles a la escala como las redes neuronales.</p>
+        <p>Estandarizar características para que tengan una media de cero y una desviación estándar de uno, lo que puede ayudar a modelos que asumen distribuciones gaussianas.</p>
+
+        <h2>Reducción de Dimensionalidad:</h2>
+        <p>La reducción de dimensionalidad, mediante técnicas como PCA, ayuda a reducir la cantidad de características en conjuntos de datos de alta dimensionalidad, mejorando la eficiencia computacional y reduciendo la posibilidad de sobreajuste.</p>
+
+        <h2>Documentación de Procesos:</h2>
+        <p>Mantener un registro detallado de todas las transformaciones y manipulaciones de datos realizadas, incluyendo detalles como las transformaciones aplicadas, las razones para cada decisión y cualquier corrección realizada.</p>
+
+        <h2>Automatización:</h2>
+        <p>En proyectos a gran escala, es beneficioso automatizar el proceso de preparación de datos mediante scripts o flujos de trabajo para garantizar consistencia y reproducibilidad.</p>
+
+        <h2>Validación Cruzada:</h2>
+        <p>Utilizar técnicas de validación cruzada, como la validación k-fold, para evaluar el rendimiento del modelo en múltiples subconjuntos de datos y obtener una estimación más robusta del rendimiento.</p>
+
+        <h2>Monitoreo Continuo:</h2>
+        <p>Después de la implementación en producción, establecer sistemas de monitoreo para seguir la calidad de los datos de entrada y el rendimiento del modelo en un entorno en tiempo real.</p>
+    </main>
+</body>
+</html>

@@ -1,0 +1,14 @@
+/* Estilos para la sección "Tipos de Algoritmos" */
+header {
+    background-color: #e74c3c;
+    color: #fff;
+    text-align: center;
+    padding: 20px;
+}
+
+main {
+    margin: 20px;
+    padding: 20px;
+    border: 1px solid #ccc;
+    color: #fff; /* Cambia el color del texto a blanco */
+}
